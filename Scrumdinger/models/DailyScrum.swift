@@ -23,8 +23,8 @@ struct DailyScrum: Identifiable {
 extension DailyScrum {
     static let sampleData: [DailyScrum] =
             [
-                DailyScrum(title: "Designers", attendees: ["Gianvincenzo", "Ignazio", "Gertrude", "Tarcisio"], lengthInMinutes: 10, theme: .navy),
-                DailyScrum(title: "Devs", attendees: ["Ettore", "Cunegonda", "Genoveffa"], lengthInMinutes: 10, theme: .navy),
-                DailyScrum(title: "Testers", attendees: ["Abbondio", "Giovanni Maria", "Bradamante", "Grimilde"], lengthInMinutes: 10, theme: .navy)
+                DailyScrum(title: "Designers", attendees: ["Gianvincenzo", "Ignazio", "Gertrude", "Tarcisio"], lengthInMinutes: 10, theme: .yellow),
+                DailyScrum(title: "Devs", attendees: ["Ettore", "Cunegonda", "Genoveffa"], lengthInMinutes: 10, theme: .orange),
+                DailyScrum(title: "Testers", attendees: ["Abbondio", "Giovanni Maria", "Bradamante", "Grimilde"], lengthInMinutes: 10, theme: .poppy)
             ]
 }
