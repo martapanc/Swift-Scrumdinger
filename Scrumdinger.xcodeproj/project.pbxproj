@@ -18,6 +18,7 @@
 		A3A95338E970E05ED8B1143F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95F97C13C9D2D415469DA /* CardView.swift */; };
 		A3A95465E32C6B08E61C1662 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95F610CCE70C899FDD0CF /* ScrumsView.swift */; };
 		A3A9567EE2327C67F90C3858 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95A9D5E6E02FF5B83EDC7 /* DailyScrum.swift */; };
+		A3A95C012DC77584F93C7A2D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A95757532AD51C27DC64D6 /* DetailView.swift */; };
 		A3A95C142D83778DC3369473 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A9567B7940DE627233A55A /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		A020C96527F8C1A50035E938 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A3A953F96A6F7E9348D3AE7E /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = models/Theme.swift; sourceTree = "<group>"; };
 		A3A9567B7940DE627233A55A /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		A3A95757532AD51C27DC64D6 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A3A95A9D5E6E02FF5B83EDC7 /* DailyScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyScrum.swift; path = models/DailyScrum.swift; sourceTree = "<group>"; };
 		A3A95F610CCE70C899FDD0CF /* ScrumsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		A3A95F97C13C9D2D415469DA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				A3A95F97C13C9D2D415469DA /* CardView.swift */,
 				A3A95F610CCE70C899FDD0CF /* ScrumsView.swift */,
 				A3A9567B7940DE627233A55A /* TrailingIconLabelStyle.swift */,
+				A3A95757532AD51C27DC64D6 /* DetailView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				A3A95338E970E05ED8B1143F /* CardView.swift in Sources */,
 				A3A95465E32C6B08E61C1662 /* ScrumsView.swift in Sources */,
 				A3A95C142D83778DC3369473 /* TrailingIconLabelStyle.swift in Sources */,
+				A3A95C012DC77584F93C7A2D /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
