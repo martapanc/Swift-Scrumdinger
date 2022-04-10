@@ -2,7 +2,6 @@
 // Created by Marta Pancaldi on 10/04/2022.
 //
 
-import Foundation
 import SwiftUI
 
 struct ScrumsView: View {
@@ -12,7 +11,7 @@ struct ScrumsView: View {
         List {
             ForEach(scrums) { scrum in
                 CardView(scrum: scrum)
-                        .listRowBackground(scrum.theme.mainColor)
+                    .listRowBackground(scrum.theme.mainColor)
             }
         }
     }
